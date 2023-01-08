@@ -51,7 +51,8 @@
                 <td>
                     <a href="/edit-crud?id=<%=dataTable[i].id%>"> <button type="button"
                             class="btn btn-warning btn-sm">Edit</button></a>
-                    <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                    <a href="/delete-crud?id=<%=dataTable[i].id%>"> <button type="button"
+                            class="btn btn-danger btn-sm">Delete</button></a>
                 </td>
             </tr>
             <% } %>
